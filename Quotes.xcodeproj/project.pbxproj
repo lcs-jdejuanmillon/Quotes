@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2C72D327C8334E00F826E5 /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C72D227C8334E00F826E5 /* SharedFunctionsAndConstants.swift */; };
 		0D64384927C5DAA900D818E8 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64384827C5DAA900D818E8 /* QuotesApp.swift */; };
 		0D64384B27C5DAA900D818E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64384A27C5DAA900D818E8 /* ContentView.swift */; };
 		0D64384D27C5DAB700D818E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D64384C27C5DAB700D818E8 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2C72D227C8334E00F826E5 /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 		0D64384527C5DAA900D818E8 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D64384827C5DAA900D818E8 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0D64384A27C5DAA900D818E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2C72D127C8333500F826E5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D2C72D227C8334E00F826E5 /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0D64383C27C5DAA800D818E8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				0D64384827C5DAA900D818E8 /* QuotesApp.swift */,
+				0D2C72D127C8333500F826E5 /* Helpers */,
 				0D64385627C5DB8100D818E8 /* Model */,
 				0D64385727C5DB8700D818E8 /* Views */,
 				0D64384C27C5DAB700D818E8 /* Assets.xcassets */,
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2C72D327C8334E00F826E5 /* SharedFunctionsAndConstants.swift in Sources */,
 				0D64384B27C5DAA900D818E8 /* ContentView.swift in Sources */,
 				0D64385927C5DBB000D818E8 /* Quote.swift in Sources */,
 				0D64384927C5DAA900D818E8 /* QuotesApp.swift in Sources */,

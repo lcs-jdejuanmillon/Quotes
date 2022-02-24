@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Quote: Decodable, Hashable {
+struct Quote: Decodable, Hashable, Encodable {
     let quoteText: String
     let quoteAuthor: String
 }
