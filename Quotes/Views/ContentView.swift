@@ -43,7 +43,7 @@ struct ContentView: View {
                 .onTapGesture {
                     if !currenQuoteAddedToFavourites {
                         favourites.append(currentQuote)
-                        currenQuoteAddedToFavourites = true;
+                        currenQuoteAddedToFavourites = true
                     }
                 }
             Button(action: {
@@ -109,7 +109,7 @@ struct ContentView: View {
             //                                         |
             //                                         V
             currentQuote = try JSONDecoder().decode(Quote.self, from: data)
-            
+            currenQuoteAddedToFavourites = false
         } catch {
             print("Could not retrieve or decode the JSON from endpoint.")
             // Print the contents of the "error" constant that the do-catch block
